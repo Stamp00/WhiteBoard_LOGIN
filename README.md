@@ -12,3 +12,5 @@ npm run dev
 
 Docker: `docker build -t login-api . && docker run -p 3001:3001 --env-file .env login-api`
 (kör `prisma migrate deploy` automatiskt vid start).
+
+Översikt över hela projektet, API-dokumentation och driftsättningsguide: [PROJEKT.md](PROJEKT.md)
